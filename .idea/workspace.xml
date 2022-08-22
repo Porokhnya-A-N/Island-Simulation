@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="&quot;git add new abstract class&quot;&#10;&quot;git add new action interface&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/Animal.java" afterDir="false" />
-    </list>
+    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="&quot;association of an abstract class with action interfaces&quot;&#10;&quot;связь абстрактного класса с интерфейсами действий&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +60,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661151404141</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&quot;association of an abstract class with action interfaces&quot;&#10;&quot;связь абстрактного класса с интерфейсами действий&quot;">
+      <created>1661155961632</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661155961632</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -81,6 +85,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;git add project file&quot;" />
     <MESSAGE value="&quot;git add new abstract class&quot;&#10;&quot;git add new action interface&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;git add new abstract class&quot;&#10;&quot;git add new action interface&quot;" />
+    <MESSAGE value="&quot;association of an abstract class with action interfaces&quot;&#10;&quot;связь абстрактного класса с интерфейсами действий&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;association of an abstract class with action interfaces&quot;&#10;&quot;связь абстрактного класса с интерфейсами действий&quot;" />
   </component>
 </project>
