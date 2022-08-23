@@ -4,7 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="&quot;association of an abstract class with action interfaces&quot;&#10;&quot;связь абстрактного класса с интерфейсами действий&quot;" />
+    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="End of the working day">
+      <change afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Boar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Buffalo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Caterpillar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Deer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Goat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Horse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Rabbit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Sheep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module/animal/predators/Bear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module/animal/predators/Boa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module/animal/predators/Eagle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module/animal/predators/Fox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module/animal/predators/Wolf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/uiw/UIW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/actions/Dead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/actions/Dead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/actions/Eat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/actions/Eat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/actions/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/actions/Move.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/actions/Reproduction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/actions/Reproduction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/user_interface/consol/UCI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/uic/UCI.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,13 +37,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -67,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661155961632</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="End of the working day">
+      <created>1661169554463</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661169554463</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,6 +118,7 @@
     <MESSAGE value="&quot;git add project file&quot;" />
     <MESSAGE value="&quot;git add new abstract class&quot;&#10;&quot;git add new action interface&quot;" />
     <MESSAGE value="&quot;association of an abstract class with action interfaces&quot;&#10;&quot;связь абстрактного класса с интерфейсами действий&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;association of an abstract class with action interfaces&quot;&#10;&quot;связь абстрактного класса с интерфейсами действий&quot;" />
+    <MESSAGE value="End of the working day" />
+    <option name="LAST_COMMIT_MESSAGE" value="End of the working day" />
   </component>
 </project>
