@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="&quot;end of the working day&quot;" />
+    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="&quot;new day&quot;">
+      <change beforePath="$PROJECT_DIR$/src/module/animal/herbivores/Boar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Boar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/herbivores/Buffalo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Buffalo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/herbivores/Caterpillar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Caterpillar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/herbivores/Deer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Deer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/herbivores/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/herbivores/Goat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Goat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/herbivores/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Horse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/herbivores/Mouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Mouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/herbivores/Rabbit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Rabbit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/herbivores/Sheep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Sheep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/Bear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/predators/Bear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/Boa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/predators/Boa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/Eagle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/predators/Eagle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/Fox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/predators/Fox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/Wolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/predators/Wolf.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661252866306</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="&quot;new day&quot;">
+      <created>1661319360036</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1661319360036</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,6 +135,7 @@
     <MESSAGE value="End of the working day" />
     <MESSAGE value="&quot;New class and configuration&quot;" />
     <MESSAGE value="&quot;end of the working day&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;end of the working day&quot;" />
+    <MESSAGE value="&quot;new day&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;new day&quot;" />
   </component>
 </project>
