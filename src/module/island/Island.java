@@ -1,4 +1,5 @@
 package module.island;
 
-public class Island {
+public class
+Island {
 }
