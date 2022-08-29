@@ -1,5 +1,5 @@
 package module.world;
 
 public interface Create {
-    void create(int sizeV, int sizeG);
+   public void create();
 }
