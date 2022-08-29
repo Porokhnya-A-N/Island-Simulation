@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="&quot;add method on class&quot;">
+    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="&quot;ADD MODULE GENERATION&quot;&#10;&quot;ADD CLASS CELL&quot;&#10;&quot;ADD CLASS EARTHCELL&quot;">
+      <change afterPath="$PROJECT_DIR$/src/module/generation/ObjectGeneration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module/generation/Random.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module/island/cell/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module/island/cell/EarthCell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/module/island/Island.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/island/Island.java" afterDir="false" />
     </list>
@@ -16,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -140,7 +145,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;git add project file&quot;" />
@@ -151,6 +155,7 @@
     <MESSAGE value="&quot;end of the working day&quot;" />
     <MESSAGE value="&quot;new day&quot;" />
     <MESSAGE value="&quot;add method on class&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;add method on class&quot;" />
+    <MESSAGE value="&quot;ADD MODULE GENERATION&quot;&#10;&quot;ADD CLASS CELL&quot;&#10;&quot;ADD CLASS EARTHCELL&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;ADD MODULE GENERATION&quot;&#10;&quot;ADD CLASS CELL&quot;&#10;&quot;ADD CLASS EARTHCELL&quot;" />
   </component>
 </project>
