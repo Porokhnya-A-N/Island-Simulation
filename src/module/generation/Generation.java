@@ -4,6 +4,8 @@ import module.animal.Animal;
 import module.animal.PlantsAndAnimal;
 
 public interface Generation {
-     int toGenerate(int maxCount);
+     default int toGenerate(int maxCount){
+          return (int) (Math.random() * maxCount);
+     }
 
 }
