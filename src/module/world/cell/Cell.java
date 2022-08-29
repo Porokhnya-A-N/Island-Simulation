@@ -1,4 +1,4 @@
-package module.island.cell;
+package module.world.cell;
 
 public abstract class Cell {
     //Кабан.

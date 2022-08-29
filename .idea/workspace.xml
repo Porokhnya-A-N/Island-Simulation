@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="&quot;ADD MODULE GENERATION&quot;&#10;&quot;ADD CLASS CELL&quot;&#10;&quot;ADD CLASS EARTHCELL&quot;" />
+    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="&quot;ADD MODULE GENERATION&quot;&#10;&quot;ADD CLASS CELL&quot;&#10;&quot;ADD CLASS EARTHCELL&quot;">
+      <change afterPath="$PROJECT_DIR$/src/module/island/Create.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/generation/Random.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/generation/Random.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/island/Island.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/island/Island.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661744860551</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="&quot;ADD MODULE GENERATION&quot;&#10;&quot;ADD CLASS CELL&quot;&#10;&quot;ADD CLASS EARTHCELL&quot;">
+      <created>1661753062328</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1661753062328</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
