@@ -1,5 +1,5 @@
 package module.generation;
 
-public interface Random {
+public interface Generation {
      int toGenerate(int maxCount);
 }

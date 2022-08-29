@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="change name package, class">
-      <change afterPath="$PROJECT_DIR$/src/module/world/Island.java" afterDir="false" />
+    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="new class RunApp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/world/Create.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/world/Create.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/world/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/world/World.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/world/cell/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/world/cell/Cell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/world/cell/EarthCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/world/cell/EarthCell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/control/creation/RunApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/control/creation/RunApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/control/launch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/control/launch/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/world/Island.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/world/Island.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +24,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -152,7 +156,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661754452806</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="finish class Island">
+      <created>1661761791786</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1661761791786</updated>
+    </task>
+    <task id="LOCAL-00013" summary="new class RunApp">
+      <created>1661761909539</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1661761909539</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,6 +195,29 @@
     <MESSAGE value="&quot;add method on class&quot;" />
     <MESSAGE value="&quot;ADD MODULE GENERATION&quot;&#10;&quot;ADD CLASS CELL&quot;&#10;&quot;ADD CLASS EARTHCELL&quot;" />
     <MESSAGE value="change name package, class" />
-    <option name="LAST_COMMIT_MESSAGE" value="change name package, class" />
+    <MESSAGE value="finish class Island" />
+    <MESSAGE value="new class RunApp" />
+    <option name="LAST_COMMIT_MESSAGE" value="new class RunApp" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/module/world/Island.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/module/world/Island.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/module/world/Island.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

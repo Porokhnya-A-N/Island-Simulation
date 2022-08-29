@@ -1,4 +1,4 @@
 package module.generation;
 
-public abstract class ObjectGeneration implements Random{
+public abstract class ObjectGeneration implements Generation {
 }

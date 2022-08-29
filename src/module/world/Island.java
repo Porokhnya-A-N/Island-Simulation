@@ -19,7 +19,9 @@ public class Island extends World{
     // создание Острова.
     @Override
     public void create() {
+        System.out.println("Create Island");
         createIsland(sizeV,sizeG);
+        System.out.println("Create Live");
         createLive(listCell);
     }
     //Создание острава заданного размера.
@@ -33,6 +35,7 @@ public class Island extends World{
     private void createLive(List<EarthCell[]> list){
         for(EarthCell[] arrayCell : list){
             for (int i = 0; i < arrayCell.length; i++) {
+                arrayCell[i] = new EarthCell();
                 arrayCell[i].create();
             }
         }
