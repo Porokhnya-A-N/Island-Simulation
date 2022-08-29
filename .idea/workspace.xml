@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="rename class Random on the Generation.">
-      <change afterPath="$PROJECT_DIR$/src/module/Factory.java" afterDir="false" />
+    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="ADD NEW ENUM CLASS PLANTS AND ANIMAL.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/PlantsAndAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/PlantsAndAnimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/factory/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/generation/factory/Factory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/module/world/cell/EarthCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/world/cell/EarthCell.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +20,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -176,7 +178,28 @@
       <option name="project" value="LOCAL" />
       <updated>1661762891008</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="ADD NEW CLASS FACTORY.">
+      <created>1661766451470</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1661766451470</updated>
+    </task>
+    <task id="LOCAL-00016" summary="ADD NEW PACKAGE FACTORY AND MOVING CLASS FACTORY.">
+      <created>1661766542600</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1661766542600</updated>
+    </task>
+    <task id="LOCAL-00017" summary="ADD NEW ENUM CLASS PLANTS AND ANIMAL.">
+      <created>1661766744570</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1661766744570</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,30 +227,18 @@
     <MESSAGE value="finish class Island" />
     <MESSAGE value="new class RunApp" />
     <MESSAGE value="rename class Random on the Generation." />
-    <option name="LAST_COMMIT_MESSAGE" value="rename class Random on the Generation." />
+    <MESSAGE value="ADD NEW CLASS FACTORY." />
+    <MESSAGE value="ADD NEW PACKAGE FACTORY AND MOVING CLASS FACTORY." />
+    <MESSAGE value="ADD NEW ENUM CLASS PLANTS AND ANIMAL." />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD NEW ENUM CLASS PLANTS AND ANIMAL." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/module/world/Island.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/module/world/Island.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/module/world/Island.java</url>
           <line>37</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/module/world/Island.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
