@@ -1,4 +1,4 @@
-package module;
+package module.factory;
 
 public class Factory {
 }
