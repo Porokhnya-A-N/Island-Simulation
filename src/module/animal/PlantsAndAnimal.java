@@ -7,4 +7,6 @@ public enum PlantsAndAnimal {
     BEAR, BOA, EAGLE, FOX, WOLF,
     //РАСТЕНИЯ
     PLANTS
-}
+
+
+    }
