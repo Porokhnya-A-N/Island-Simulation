@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="ADD NEW CLASS GENERATION AND MODIFY CLASS.">
+    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="create default method toGenerate">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/PlantsAndAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/AnimalType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/module/generation/AnimalGeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/generation/AnimalGeneration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/module/generation/Generation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/generation/Generation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/generation/factory/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/generation/factory/AnimalFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/world/cell/EarthCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/world/cell/EarthCell.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661771491143</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="create default method toGenerate">
+      <created>1661776806703</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1661776806703</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,6 +258,7 @@
     <MESSAGE value="ADD NEW ENUM CLASS PLANTS AND ANIMAL." />
     <MESSAGE value="PACKAGE FACTORY MOVING IN PACKAGE GENERATION" />
     <MESSAGE value="ADD NEW CLASS GENERATION AND MODIFY CLASS." />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD NEW CLASS GENERATION AND MODIFY CLASS." />
+    <MESSAGE value="create default method toGenerate" />
+    <option name="LAST_COMMIT_MESSAGE" value="create default method toGenerate" />
   </component>
 </project>

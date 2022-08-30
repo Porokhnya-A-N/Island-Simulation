@@ -1,4 +1,4 @@
 package module.generation.factory;
 
-public class Factory {
+public class AnimalFactory {
 }
