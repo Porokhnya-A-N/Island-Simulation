@@ -32,4 +32,5 @@ public abstract class Cell {
     //Волк
     public static final int MAX_WOLF =30;
     //Растения.
+    public static final int MAX_PLANTS = 200;
 }
