@@ -32,8 +32,11 @@ public enum AnimalCount {
     //Волк
     MAX_WOLF (30);
     //Растения.
-
+ private int count;
     AnimalCount(int i) {
-
+        count = i;
+    }
+    public int getCount(){
+        return count;
     }
 }

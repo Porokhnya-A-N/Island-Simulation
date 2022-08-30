@@ -1,18 +1,18 @@
 package module.world.cell;
 
 import module.animal.Animal;
+import module.animal.AnimalCount;
 import module.animal.AnimalType;
 import module.generation.Generation;
 import module.generation.factory.AnimalFactory;
 import module.world.Create;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class EarthCell extends Cell implements Create, Generation {
     private AnimalType plantsAndAnimal;
-    Map<String, List<Animal>> mapAnimal = new HashMap<>();
+    private AnimalCount animalCount;
+    Map<AnimalType, List<Animal>> mapAnimal = new HashMap<AnimalType, List<Animal>>();
     public AnimalFactory animalFactory = new AnimalFactory();
     @Override
     public void create() {
@@ -20,12 +20,21 @@ public class EarthCell extends Cell implements Create, Generation {
 
     }
     private void createLiveInCell(){
+        //Перебор значений ENUM
         AnimalType types[] = plantsAndAnimal.values();
-
-        for(AnimalType type : types){
-            System.out.println(type);
-
+        AnimalCount count[] = animalCount.values();
+        //Заполнения животными клетки.
+        for (int i = 0; i < types.length; i++) {
+            mapAnimal.put(types[i],createAnimal(types[i], toGenerate(count[i].getCount())));
         }
+    }
+    private List<Animal> createAnimal(AnimalType type,int count){
+        //Добавить проверку на 0.
+        List<Animal> newList = new ArrayList<>();
+        for (int i = 0; i < count; i++) {
+           newList.add(animalFactory.createAnimal(type));
+        }
+        return newList;
     }
 }
 
