@@ -4,27 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="modify class animal">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/animal/actions/Dead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/actions/Dead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/animal/herbivores/Boar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Boar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/animal/herbivores/Buffalo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Buffalo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/animal/herbivores/Caterpillar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Caterpillar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/animal/herbivores/Deer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Deer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/animal/herbivores/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Duck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/animal/herbivores/Goat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Goat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/animal/herbivores/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Horse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/animal/herbivores/Mouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Mouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/animal/herbivores/Rabbit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Rabbit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/animal/herbivores/Sheep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Sheep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/animal/logics/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/logics/Basic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/animal/plants/Plants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/plants/Plants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/Bear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/predators/Bear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/Boa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/predators/Boa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/Eagle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/predators/Eagle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/Fox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/predators/Fox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/Wolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/predators/Wolf.java" afterDir="false" />
+    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="refactor basic logic">
+      <change beforePath="$PROJECT_DIR$/src/module/logics/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/logics/Basic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -288,7 +269,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661862424008</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="refactor module animal&#10;add module basic logic">
+      <created>1661865072168</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1661865072168</updated>
+    </task>
+    <task id="LOCAL-00029" summary="refactor basic logic">
+      <created>1661865267557</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1661865267557</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -303,8 +298,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&quot;git add new abstract class&quot;&#10;&quot;git add new action interface&quot;" />
-    <MESSAGE value="&quot;association of an abstract class with action interfaces&quot;&#10;&quot;связь абстрактного класса с интерфейсами действий&quot;" />
     <MESSAGE value="End of the working day" />
     <MESSAGE value="&quot;New class and configuration&quot;" />
     <MESSAGE value="&quot;end of the working day&quot;" />
@@ -328,6 +321,8 @@
     <MESSAGE value="ADD CLASS PLANS AND REFACTOR FACTORY,ENUM STRUCTURE." />
     <MESSAGE value="ADD package logic add class basic" />
     <MESSAGE value="modify class animal" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify class animal" />
+    <MESSAGE value="refactor module animal&#10;add module basic logic" />
+    <MESSAGE value="refactor basic logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor basic logic" />
   </component>
 </project>

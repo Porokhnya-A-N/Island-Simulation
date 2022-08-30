@@ -6,9 +6,9 @@ public class Basic {
     private Animal object;
 
     public void launchBasicLogic(Animal obj){
-        this.object = obj;
+      object = obj;
         if(object.isDead()){
-            if(object.getSatiety() > object.getRealSatiety()){
+            if(object.getRealSatiety() >= (object.getSatiety() *0.8)){
                 object.reproduction();
             }else{
                 object.eat();
