@@ -3,6 +3,7 @@ package module.generation.factory;
 import module.animal.Animal;
 import module.animal.AnimalType;
 import module.animal.herbivores.*;
+import module.animal.plants.Plants;
 import module.animal.predators.*;
 //Фабрика для создания объектов.
 
@@ -26,6 +27,7 @@ public class AnimalFactory {
             case MOUSE -> new Mouse();
             case RABBIT -> new Rabbit();
             case SHEEP -> new Sheep();
+            case PLANTS -> new Plants();
             default -> null;
         };
         return animal;
