@@ -6,10 +6,7 @@ public class Mouse extends Animal {
     public Mouse () {
         super(0.5, 0.1, 1, 1);
     }
-    @Override
-    public void isDead() {
 
-    }
 
     @Override
     public void eat() {

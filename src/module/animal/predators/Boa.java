@@ -5,10 +5,7 @@ public class Boa extends Animal {
     public Boa() {
         super(15, 3, 1, 1);
     }
-    @Override
-    public void isDead() {
 
-    }
 
     @Override
     public void eat() {

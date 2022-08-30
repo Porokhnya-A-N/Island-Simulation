@@ -7,10 +7,8 @@ public class Deer extends Animal {
         super(300, 50, 4, 1);
     }
 
-    @Override
-    public void isDead() {
 
-    }
+
 
     @Override
     public void eat() {

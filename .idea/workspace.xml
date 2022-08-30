@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="refactor basic logic">
-      <change beforePath="$PROJECT_DIR$/src/module/logics/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/logics/Basic.java" afterDir="false" />
+    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="new logic in basic logic">
+      <change beforePath="$PROJECT_DIR$/src/module/world/Island.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/world/Island.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661865267557</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="new logic in basic logic">
+      <created>1661871772125</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1661871772125</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -298,7 +305,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="End of the working day" />
     <MESSAGE value="&quot;New class and configuration&quot;" />
     <MESSAGE value="&quot;end of the working day&quot;" />
     <MESSAGE value="&quot;new day&quot;" />
@@ -323,6 +329,7 @@
     <MESSAGE value="modify class animal" />
     <MESSAGE value="refactor module animal&#10;add module basic logic" />
     <MESSAGE value="refactor basic logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor basic logic" />
+    <MESSAGE value="new logic in basic logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="new logic in basic logic" />
   </component>
 </project>

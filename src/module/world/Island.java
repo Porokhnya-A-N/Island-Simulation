@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Island extends World{
-    private List<EarthCell[]> listCell;
+    private EarthCell[][] arrayCell;
     public Island(){
         this(2,2);
     }
@@ -21,23 +21,16 @@ public class Island extends World{
     public void create() {
         System.out.println("Create Island");
         createIsland(sizeV,sizeG);
-        System.out.println("Create Live");
-        createLive(listCell);
     }
     //Создание острава заданного размера.
-    private void createIsland(int sizeV,int sizeG){
-        listCell = new ArrayList<>();
-        for (int i = 0 ; i < sizeG ; i++) {
-            listCell.add(new EarthCell[sizeV]);
-        }
-    }
-    //Создание жизни.
-    private void createLive(List<EarthCell[]> list){
-        for(EarthCell[] arrayCell : list){
-            for (int i = 0; i < arrayCell.length; i++) {
-                arrayCell[i] = new EarthCell();
-                arrayCell[i].create();
+    private void createIsland(int sizeV,int sizeG) {
+        arrayCell = new EarthCell[sizeV][sizeG];
+        for (int i = 0; i < sizeV; i++) {
+            for (int j = 0; j < sizeG; j++) {
+                arrayCell[i][j] = new EarthCell();
+                arrayCell[i][j].create();
             }
+
         }
     }
 }

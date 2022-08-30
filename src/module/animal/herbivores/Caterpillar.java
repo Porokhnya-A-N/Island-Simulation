@@ -6,10 +6,8 @@ public class Caterpillar extends Animal {
     public Caterpillar() {
         super(0.01, 0, 0, 1);
     }
-    @Override
-    public void isDead() {
 
-    }
+
 
     @Override
     public void eat() {

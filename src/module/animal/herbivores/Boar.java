@@ -8,11 +8,6 @@ public class Boar extends Animal {
     }
 
     @Override
-    public void isDead() {
-
-    }
-
-    @Override
     public void eat() {
 
     }

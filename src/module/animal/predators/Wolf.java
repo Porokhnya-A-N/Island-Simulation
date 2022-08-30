@@ -6,10 +6,7 @@ public class Wolf extends Animal {
     public Wolf() {
         super(50, 8, 3, 1);
     }
-    @Override
-    public void isDead() {
 
-    }
 
     @Override
     public void eat() {
