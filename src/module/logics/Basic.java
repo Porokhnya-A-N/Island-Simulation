@@ -9,9 +9,11 @@ public class Basic {
       object = obj;
         if(object.isDead()){
             if(object.getRealSatiety() >= (object.getSatiety() *0.8)){
-                object.reproduction();
+                //Запуск логики размножения.
+
             }else{
-                object.eat();
+                //Запуск логики охоты.
+
             }
         }else{
             object = null;
