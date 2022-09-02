@@ -38,8 +38,8 @@ public abstract class Animal implements Move,Eat,Reproduction,Dead, Generation {
     }
 
     @Override
-    public Animal reproduction(String name) {
-            return factory.createAnimal(name);
+    public void reproduction() {
+           // return factory.createAnimal(name);
     }
 
     public double getWeight() {

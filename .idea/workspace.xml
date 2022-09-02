@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="refactor class Basic logic">
+    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="end work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/module/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/animal/actions/Eat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/actions/Eat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/animal/actions/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/actions/Move.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -307,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661934818533</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="end work">
+      <created>1661943899065</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1661943899065</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -322,7 +327,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&quot;new day&quot;" />
     <MESSAGE value="&quot;add method on class&quot;" />
     <MESSAGE value="&quot;ADD MODULE GENERATION&quot;&#10;&quot;ADD CLASS CELL&quot;&#10;&quot;ADD CLASS EARTHCELL&quot;" />
     <MESSAGE value="change name package, class" />
@@ -347,7 +351,8 @@
     <MESSAGE value="new logic in basic logic" />
     <MESSAGE value="refactor package Animal" />
     <MESSAGE value="refactor class Basic logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor class Basic logic" />
+    <MESSAGE value="end work" />
+    <option name="LAST_COMMIT_MESSAGE" value="end work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
