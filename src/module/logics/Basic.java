@@ -9,7 +9,7 @@ public class Basic {
         System.out.println(obj.getAnimalType());
       object = obj;
         if(object.isDead()){
-            if(object.getRealSatiety() >= (object.getSatiety() *0.7)){
+            if(object.getRealSatiety() >= (object.getSatiety() *0.8)){
                 //Запуск логики размножения.
                 System.out.println("run logic 1");
                 System.out.println(object.getSatiety());
