@@ -11,5 +11,7 @@ public class RunApp implements Runnable {
     public void run() {
         island = new Island();
         island.create();
+        readIsland = new ReadIsland();
+        readIsland.readIsland(island.getArrayCell());
     }
 }
