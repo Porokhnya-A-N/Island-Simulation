@@ -5,8 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="end work">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/module/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/herbivores/Boar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Boar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/herbivores/Buffalo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Buffalo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/herbivores/Caterpillar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Caterpillar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/herbivores/Deer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Deer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/herbivores/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/herbivores/Goat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Goat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/herbivores/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Horse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/herbivores/Mouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Mouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/herbivores/Rabbit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Rabbit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/herbivores/Sheep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Sheep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/plants/Plants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/plants/Plants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/Bear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/predators/Bear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/Boa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/predators/Boa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/Eagle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/predators/Eagle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/Fox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/predators/Fox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/Wolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/predators/Wolf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/world/Island.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/world/Island.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -325,6 +343,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;add method on class&quot;" />
@@ -359,7 +378,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/module/world/Island.java</url>
-          <line>30</line>
+          <line>34</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>

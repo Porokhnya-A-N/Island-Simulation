@@ -5,14 +5,16 @@ import module.generation.factory.AnimalFactory;
 
 public abstract class Animal implements Move,Eat,Reproduction,Dead, Generation {
     //Основные жизненые показатели животных - вес - скорость- сытость - жизнь -
+    private AnimalType animalType;
     private double weight, satiety, realSatiety;
     private int speed, hp;
     private AnimalFactory factory;
-    public Animal(double weight, double satiety, int speed, int hp) {
+    public Animal(double weight, double satiety, int speed, int hp, AnimalType animalType) {
         this.weight = weight;
         this.satiety = satiety;
         this.speed = speed;
         this.hp = hp;
+        this.animalType = animalType;
         realSatiety = satiety * 0.50;
     }
 

@@ -6,6 +6,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Island extends World{
+    public EarthCell[][] getArrayCell() {
+        return arrayCell;
+    }
+
     private EarthCell[][] arrayCell;
     public Island(){
         this(2,2);
