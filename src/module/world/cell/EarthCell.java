@@ -36,5 +36,9 @@ public class EarthCell extends Cell implements Create, Generation {
         }
         return newList;
     }
+
+    public Map<AnimalType, List<Animal>> getMapAnimal() {
+        return mapAnimal;
+    }
 }
 
