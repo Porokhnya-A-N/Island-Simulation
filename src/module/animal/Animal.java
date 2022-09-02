@@ -18,7 +18,11 @@ public abstract class Animal implements Move,Eat,Reproduction,Dead, Generation {
         realSatiety = satiety * 0.50;
     }
 
-//Базовая логика питания.
+    public AnimalType getAnimalType() {
+        return animalType;
+    }
+
+    //Базовая логика питания.
     @Override
     public void eat(int food) {
         if (food >= satiety){
