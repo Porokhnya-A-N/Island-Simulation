@@ -9,7 +9,7 @@ public class ReadIsland {
         this.island = island;
         for (int i = 0; i < island.length; i++) {
             for (int j = 0; j < island[i].length; j++) {
-                cellSearch.openCell(island[i][j]);
+                cellSearch.openCell(island[i][j],i,j);
             }
         }
     }
