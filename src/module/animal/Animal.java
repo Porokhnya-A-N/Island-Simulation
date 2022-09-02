@@ -3,8 +3,20 @@ import module.animal.actions.*;
 import module.generation.Generation;
 import module.generation.factory.AnimalFactory;
 
+import java.util.List;
+
 public abstract class Animal implements Move,Eat,Reproduction,Dead, Generation {
     //Основные жизненые показатели животных - вес - скорость- сытость - жизнь -
+    private List<AnimalType> hunting;
+
+    public void setHunting(List<AnimalType> hunting) {
+        this.hunting = hunting;
+    }
+
+    public List<AnimalType> getHunting() {
+        return hunting;
+    }
+
     private AnimalType animalType;
     private double weight, satiety, realSatiety;
     private int speed, hp;

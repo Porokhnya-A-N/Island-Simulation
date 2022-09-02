@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/Wolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/predators/Wolf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/module/logics/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/logics/Basic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/logics/HuntingLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/logics/HuntingLogic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -350,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662138544154</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="new logic for rep, hanter.">
+      <created>1662139500607</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1662139500607</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -366,7 +376,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="rename class Random on the Generation." />
     <MESSAGE value="ADD NEW CLASS FACTORY." />
     <MESSAGE value="ADD NEW PACKAGE FACTORY AND MOVING CLASS FACTORY." />
     <MESSAGE value="ADD NEW ENUM CLASS PLANTS AND ANIMAL." />
@@ -391,7 +400,8 @@
     <MESSAGE value="NEW CLASS READ ISLAND" />
     <MESSAGE value="Runnable basic logic" />
     <MESSAGE value="new chang in logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="new chang in logic" />
+    <MESSAGE value="new logic for rep, hanter." />
+    <option name="LAST_COMMIT_MESSAGE" value="new logic for rep, hanter." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
