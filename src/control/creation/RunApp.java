@@ -1,17 +1,17 @@
 package control.creation;
 
-import module.logics.ReadIsland;
+import module.logics.Basic;
 import module.world.Island;
 
 public class RunApp implements Runnable {
-    private Island island;
-    private ReadIsland readIsland;
-
+    Basic basicLogic;
+    Island island;
     @Override
     public void run() {
         island = new Island();
         island.create();
-        readIsland = new ReadIsland();
-        readIsland.readIsland(island.getArrayCell());
+        basicLogic = new Basic(island);
+        basicLogic.openIsland();
+
     }
 }
