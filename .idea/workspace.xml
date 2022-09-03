@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/module/animal/predators/hunting/BearHunting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module/animal/predators/hunting/BoaHunting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module/animal/predators/hunting/EagleHunting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module/animal/predators/hunting/FoxHunting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module/animal/predators/hunting/WolfHunting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/Wolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/predators/Wolf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/logics/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/logics/Basic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/logics/HuntingLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/logics/HuntingLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/hunting/BearHunting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/predators/hunting/BearHunting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/hunting/BoaHunting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/predators/hunting/BoaHunting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/hunting/EagleHunting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/predators/hunting/EagleHunting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/hunting/FoxHunting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/predators/hunting/FoxHunting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/hunting/WolfHunting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/predators/hunting/WolfHunting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -371,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662141756294</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="new day new enum class hunting">
+      <created>1662167416748</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1662167416748</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -387,7 +391,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ADD NEW CLASS FACTORY." />
     <MESSAGE value="ADD NEW PACKAGE FACTORY AND MOVING CLASS FACTORY." />
     <MESSAGE value="ADD NEW ENUM CLASS PLANTS AND ANIMAL." />
     <MESSAGE value="PACKAGE FACTORY MOVING IN PACKAGE GENERATION" />
@@ -412,7 +415,8 @@
     <MESSAGE value="new chang in logic" />
     <MESSAGE value="new logic for rep, hanter." />
     <MESSAGE value="end work" />
-    <option name="LAST_COMMIT_MESSAGE" value="end work" />
+    <MESSAGE value="new day new enum class hunting" />
+    <option name="LAST_COMMIT_MESSAGE" value="new day new enum class hunting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
