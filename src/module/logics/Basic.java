@@ -16,7 +16,7 @@ public class Basic {
 
             }else{
                 //Запуск логики охоты.
-                HuntingLogic huntingLogic = new HuntingLogic(object);
+                //HuntingLogic huntingLogic = new HuntingLogic(object);
                 System.out.println("run logic 2");
                 System.out.println(object.getRealSatiety());
 

@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/module/animal/predators/hunting/BearHunting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module/animal/predators/hunting/BoaHunting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module/animal/predators/hunting/EagleHunting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module/animal/predators/hunting/FoxHunting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module/animal/predators/hunting/WolfHunting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/module/animal/predators/Wolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/predators/Wolf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/module/logics/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/logics/Basic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/module/logics/HuntingLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/logics/HuntingLogic.java" afterDir="false" />
@@ -360,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662139500607</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="end work">
+      <created>1662141756294</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1662141756294</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -394,14 +405,14 @@
     <MESSAGE value="new logic in basic logic" />
     <MESSAGE value="refactor package Animal" />
     <MESSAGE value="refactor class Basic logic" />
-    <MESSAGE value="end work" />
     <MESSAGE value="NEW CHANG FOR ANIMAL CLASS" />
     <MESSAGE value="NEW CLASS CELL SEARCH." />
     <MESSAGE value="NEW CLASS READ ISLAND" />
     <MESSAGE value="Runnable basic logic" />
     <MESSAGE value="new chang in logic" />
     <MESSAGE value="new logic for rep, hanter." />
-    <option name="LAST_COMMIT_MESSAGE" value="new logic for rep, hanter." />
+    <MESSAGE value="end work" />
+    <option name="LAST_COMMIT_MESSAGE" value="end work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
