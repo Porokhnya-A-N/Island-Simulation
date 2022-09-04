@@ -33,9 +33,9 @@ public class Basic {
                 } else {
                     System.out.println("move" + object.getAnimalType());
                     if(object.toGenerate(100) > 50){
-                        movementLogic.startMove(coordinateX, coordinateY,object,earthCell);
+                        movementLogic.startMove(0,coordinateX, coordinateY,object,earthCell);
                     }else{
-                        movementLogic.startMove(coordinateX,coordinateY,object,earthCell);
+                        movementLogic.startMove(1,coordinateX,coordinateY,object,earthCell);
                     }
                 }
             }

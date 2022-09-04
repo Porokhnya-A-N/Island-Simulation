@@ -7,6 +7,10 @@ import java.util.Arrays;
 import java.util.List;
 
 public abstract class Animal implements Move,Eat,Reproduction,Dead, Generation {
+    public void setRealSatiety(double realSatiety) {
+        this.realSatiety = realSatiety;
+    }
+
     //Основные жизненые показатели животных - вес - скорость- сытость - жизнь -
     private List<AnimalType> hunting;
     private int maxAnimal;
