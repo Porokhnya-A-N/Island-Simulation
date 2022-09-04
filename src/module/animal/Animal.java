@@ -88,7 +88,7 @@ public abstract class Animal implements Move,Eat,Reproduction,Dead, Generation {
     //Базовая логика передвижения
 
     @Override
-    public int move(int speed) {
+    public int move() {
         return toGenerate(speed);
     }
 

@@ -12,6 +12,7 @@ public class Basic {
     int coordinateX,coordinateY;
     private HuntingLogic huntingLogic = new HuntingLogic();
     private MovementLogic movementLogic = new MovementLogic();
+    BreedingLogic breedingLogic = new BreedingLogic();
     private Animal object;
     private Island island;
     private EarthCell[][] earthCell;
@@ -31,7 +32,6 @@ public class Basic {
                 if (huntingLogic.startHunting(object, cell) == 0) {
                     return;
                 } else {
-                    System.out.println("move" + object.getAnimalType());
                     if(object.toGenerate(100) > 50){
                         movementLogic.startMove(0,coordinateX, coordinateY,object,earthCell);
                     }else{

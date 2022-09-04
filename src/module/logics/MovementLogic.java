@@ -8,7 +8,7 @@ public class MovementLogic {
     public void startMove(int direction, int corX, int corY, Animal object, EarthCell[][] earthCell){
       x = corX;
       y = corY;
-        int steep = object.toGenerate(object.getSpeed());
+        int steep = object.move();
         if(direction == 0 && steep!=0){
            if(earthCell.length >= (x + steep)){
                while(steep > 0){
