@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="new logic move">
+    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="refactor move logic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/logics/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/logics/Basic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/module/logics/MovementLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/logics/MovementLogic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -408,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662284892147</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="refactor move logic">
+      <created>1662286581187</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1662286581187</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -423,7 +428,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refactor file - rename class factory and enum class animaltype" />
     <MESSAGE value="Delete file AnimalGenerator&#10;create class AnimalFactory" />
     <MESSAGE value="create enum class AnimalCount" />
     <MESSAGE value="new method create live in class EarthCell" />
@@ -448,6 +452,7 @@
     <MESSAGE value="refactor animal class&#10;delete enum hunting all" />
     <MESSAGE value="delete package hunting&#10;modify animal class" />
     <MESSAGE value="new logic move" />
-    <option name="LAST_COMMIT_MESSAGE" value="new logic move" />
+    <MESSAGE value="refactor move logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor move logic" />
   </component>
 </project>
