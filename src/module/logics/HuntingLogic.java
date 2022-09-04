@@ -1,27 +1,43 @@
 package module.logics;
 
 import module.animal.Animal;
-import module.animal.predators.Eagle;
-import module.animal.predators.Fox;
 import module.animal.predators.Wolf;
-import module.animal.predators.hunting.EagleHunting;
-import module.animal.predators.hunting.FoxHunting;
-import module.animal.predators.hunting.WolfHunting;
 import module.world.cell.EarthCell;
 
-public class HuntingLogic {
-        public int startHunting(Animal object, EarthCell cell){
-         if(object instanceof Wolf){
-             Wolf wolf = (Wolf) object;
+import java.util.List;
 
-             return 1;
-         }else if (object instanceof Fox) {
-             Fox fox = (Fox) object;
-             return fox.toGenerate(FoxHunting.values().length);
-         }else if(object instanceof Eagle){
-             Eagle eagle = (Eagle) object;
-             return eagle.toGenerate(EagleHunting.values().length);
-         }else
-             return 0;
+public class HuntingLogic {
+    EarthCell earthCell;
+
+    public int startHunting(Animal object, EarthCell cell) {
+        int typeAnimal = 0;
+        int percent = 0;
+        earthCell = cell;
+        Animal animal = null;
+//        System.out.println("--" + object.getAnimalType());
+        typeAnimal = object.toGenerate(object.getListHunting().size() - 1);
+//        System.out.println(typeAnimal);
+        percent = object.getListHuntingPresent().get(typeAnimal);
+//        System.out.println(percent);
+//        System.out.println(object.getListHunting().get(typeAnimal));
+        List<Animal> list = cell.getMapAnimal().get(object.getListHunting().get(typeAnimal));
+        if(list.size() == 0) {
+            animal = list.isEmpty() ? null : list.get(0);
+        }else {
+            animal = list.get(object.toGenerate(list.size() - 1));
         }
+//        System.out.println("-----------------");
+        if(animal != null && animal.isDead()) {
+            if (object.toGenerate(100) >= (100 - percent)) {
+                object.eat(animal.getWeight());
+                animal.setHp(0);
+                System.out.println(animal.getAnimalType() + "dead hunting");
+                return 0;
+            } else {
+                return 1;
+            }
+        }else {
+            return startHunting(object,cell);
+        }
+    }
 }

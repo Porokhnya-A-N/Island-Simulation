@@ -3,6 +3,7 @@ import module.animal.actions.*;
 import module.generation.Generation;
 import module.generation.factory.AnimalFactory;
 
+import java.util.Arrays;
 import java.util.List;
 
 public abstract class Animal implements Move,Eat,Reproduction,Dead, Generation {
@@ -17,10 +18,33 @@ public abstract class Animal implements Move,Eat,Reproduction,Dead, Generation {
         return hunting;
     }
 
+    public void setHp(int hp) {
+        this.hp = hp;
+    }
+
     private AnimalType animalType;
     private double weight, satiety, realSatiety;
     private int speed, hp;
     private AnimalFactory factory;
+    private List<AnimalType> listHunting;
+    private List<Integer> listHuntingPresent;
+
+    public List<AnimalType> getListHunting() {
+        return listHunting;
+    }
+
+    public void setListHunting(List<AnimalType> listHunting) {
+        this.listHunting = listHunting;
+    }
+
+    public List<Integer> getListHuntingPresent() {
+        return listHuntingPresent;
+    }
+
+    public void setListHuntingPresent(List<Integer> listHuntingPresent) {
+        this.listHuntingPresent = listHuntingPresent;
+    }
+
     public Animal(double weight, double satiety, int speed, int hp, AnimalType animalType) {
         this.weight = weight;
         this.satiety = satiety;
@@ -36,7 +60,7 @@ public abstract class Animal implements Move,Eat,Reproduction,Dead, Generation {
 
     //Базовая логика питания.
     @Override
-    public void eat(int food) {
+    public void eat(double food) {
         if (food >= satiety){
             realSatiety = satiety;
         }else if (food < satiety){

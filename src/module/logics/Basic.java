@@ -21,14 +21,20 @@ public class Basic {
 
     private void launchBasicLogic(){
         if(object.isDead()){
-            if(object.getRealSatiety() >= (object.getSatiety() *0.8)){
+            if(object.getRealSatiety() >= (object.getSatiety() * 0.8)){
                 //Запуск логики размножения.
-                System.out.println("run logic 1");
-                System.out.println(object.getSatiety());
 
-            }else{
+            }else {
                 //Запуск логики охоты.
-               huntingLogic.startHunting(object,cell);
+
+                if (object.getAnimalType() == AnimalType.WOLF){
+                    System.out.println("Start hunting");
+                if (huntingLogic.startHunting(object, cell) == 0) {
+                    return;
+                } else {
+                    System.out.println("move" + object.getAnimalType());
+                }
+            }
             }
         }else{
             object = null;
@@ -44,7 +50,7 @@ public class Basic {
            List<Animal> animalList = mapAnimal.get(AnimalType.values()[i]);
             for (int j = 0; j < animalList.size(); j++) {
                 object =animalList.get(j);
-                System.out.println(object.getAnimalType());
+               // System.out.println(object.getAnimalType());
                 launchBasicLogic();
             }
 
