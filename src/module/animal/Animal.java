@@ -38,7 +38,7 @@ public abstract class Animal implements Move,Eat,Reproduction,Dead, Generation {
     private AnimalType animalType;
     private double weight, satiety, realSatiety;
     private int speed, hp;
-    private AnimalFactory factory;
+    private AnimalFactory factory = new AnimalFactory();
     private List<AnimalType> listHunting;
     private List<Integer> listHuntingPresent;
 
@@ -94,7 +94,7 @@ public abstract class Animal implements Move,Eat,Reproduction,Dead, Generation {
 
     @Override
     public Animal reproduction() {
-            return factory.createAnimal(animalType);
+            return factory.createAnimal(getAnimalType());
     }
 
     public double getWeight() {

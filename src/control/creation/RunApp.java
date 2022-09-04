@@ -2,16 +2,34 @@ package control.creation;
 
 import module.logics.Basic;
 import module.world.Island;
+import view.uic.UCI;
 
-public class RunApp implements Runnable {
-    Basic basicLogic;
+import java.util.concurrent.Callable;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+
+
+public class RunApp implements Runnable{
     Island island;
-    @Override
+    UCI uci;
+    Basic logic;
     public void run() {
-        island = new Island();
-        island.create();
-        basicLogic = new Basic(island);
-        basicLogic.openIsland();
+        uci = new UCI();
+        ScheduledExecutorService scheduledExecutorService = Executors.newScheduledThreadPool(4);
+        uci.launchUCI();
+        island = uci.getIsland();
+        logic = new Basic(island);
+        int count = 0;
+        while(island.isLive()) {
+            System.out.println(island.isLive()+" " + count++);
+            logic.openIsland();
+        }
+//        Callable task = () -> {
+//            return "Hello, World!";
+//        };
+
+//        basicLogic = new Basic(island);
+//        basicLogic.openIsland();
 
     }
 }

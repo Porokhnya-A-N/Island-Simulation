@@ -1,9 +1,8 @@
 package module.world;
 
+import module.animal.AnimalType;
 import module.world.cell.EarthCell;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class Island extends World{
     public EarthCell[][] getArrayCell() {
@@ -23,7 +22,6 @@ public class Island extends World{
     // создание Острова.
     @Override
     public void create() {
-        System.out.println("Create Island");
         createIsland(sizeV,sizeG);
     }
     //Создание острава заданного размера.
@@ -36,5 +34,24 @@ public class Island extends World{
             }
 
         }
+    }
+    public boolean isLive(){
+        boolean status = false;
+        for(int i =0 ; i < arrayCell.length; i++){
+            for (int j = 0; j < arrayCell[i].length; j++) {
+                for (AnimalType type: AnimalType.values()) {
+                    if(type != AnimalType.PLANTS){
+                    status = arrayCell[i][j].getMapAnimal().get(type).isEmpty();
+                        if(status){
+                            return true;
+                        }
+                    }
+
+                }
+
+
+            }
+        }
+        return false;
     }
 }
