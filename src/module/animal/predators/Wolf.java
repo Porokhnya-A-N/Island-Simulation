@@ -8,6 +8,7 @@ import static module.animal.AnimalType.*;
 public class Wolf extends Animal {
     public Wolf() {
         super(50, 8, 3, 1, AnimalType.WOLF);
+        setMaxAnimal(30);
         setListHunting(List.of( HORSE,DEER,RABBIT,MOUSE,GOAT,SHEEP,BOAR,BUFFALO,DUCK));
         setListHuntingPresent(List.of( 10,15,60,80,60,70,15,10,40));
     }

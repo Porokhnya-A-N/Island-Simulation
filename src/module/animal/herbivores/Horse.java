@@ -11,6 +11,7 @@ import static module.animal.AnimalType.*;
 public class Horse extends Animal {
     public Horse() {
         super(400, 60, 4, 1, AnimalType.HORSE);
+        setMaxAnimal(20);
         setListHunting(List.of(PLANTS));
         setListHuntingPresent(List.of( 100));
     }

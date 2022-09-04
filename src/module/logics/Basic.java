@@ -11,6 +11,7 @@ import java.util.Map;
 public class Basic {
     int coordinateX,coordinateY;
     private HuntingLogic huntingLogic = new HuntingLogic();
+    private MovementLogic movementLogic = new MovementLogic();
     private Animal object;
     private Island island;
     private EarthCell[][] earthCell;
@@ -26,13 +27,16 @@ public class Basic {
 
             }else {
                 //Запуск логики охоты.
-
-                if (object.getAnimalType() == AnimalType.WOLF){
-                    System.out.println("Start hunting");
+                if (object.getAnimalType() != AnimalType.PLANTS){
                 if (huntingLogic.startHunting(object, cell) == 0) {
                     return;
                 } else {
                     System.out.println("move" + object.getAnimalType());
+                    if(object.toGenerate(100) > 50){
+                        movementLogic.startMove(coordinateX, coordinateY,object,earthCell);
+                    }else{
+                        movementLogic.startMove(coordinateX,coordinateY,object,earthCell);
+                    }
                 }
             }
             }
@@ -50,7 +54,6 @@ public class Basic {
            List<Animal> animalList = mapAnimal.get(AnimalType.values()[i]);
             for (int j = 0; j < animalList.size(); j++) {
                 object =animalList.get(j);
-               // System.out.println(object.getAnimalType());
                 launchBasicLogic();
             }
 

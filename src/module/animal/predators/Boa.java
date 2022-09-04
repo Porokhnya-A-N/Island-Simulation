@@ -11,6 +11,7 @@ public class Boa extends Animal {
 
     public Boa() {
         super(15, 3, 1, 1, AnimalType.BOA);
+        setMaxAnimal(30);
         setListHunting(List.of(FOX,RABBIT,MOUSE,DUCK));
         setListHuntingPresent(List.of(15,20,40,10));
        // FOX(15),RABBIT(20),MOUSE(40),DUCK(10);

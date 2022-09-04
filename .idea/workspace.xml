@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="refactor animal class&#10;delete enum hunting all">
+    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="delete package hunting&#10;modify animal class">
+      <change afterPath="$PROJECT_DIR$/src/module/logics/MovementLogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/module/animal/herbivores/Boar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Boar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/module/animal/herbivores/Buffalo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Buffalo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/module/animal/herbivores/Caterpillar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Caterpillar.java" afterDir="false" />
@@ -16,6 +18,14 @@
       <change beforePath="$PROJECT_DIR$/src/module/animal/herbivores/Mouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Mouse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/module/animal/herbivores/Rabbit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Rabbit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/module/animal/herbivores/Sheep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/herbivores/Sheep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/plants/Plants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/plants/Plants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/Bear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/predators/Bear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/Boa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/predators/Boa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/Eagle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/predators/Eagle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/Fox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/predators/Fox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/Wolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/predators/Wolf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/logics/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/logics/Basic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/logics/HuntingLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/logics/HuntingLogic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +35,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -401,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662280323666</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="delete package hunting&#10;modify animal class">
+      <created>1662280949989</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1662280949989</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -416,7 +433,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ADD NEW CLASS GENERATION AND MODIFY CLASS." />
     <MESSAGE value="create default method toGenerate" />
     <MESSAGE value="Refactor file - rename class factory and enum class animaltype" />
     <MESSAGE value="Delete file AnimalGenerator&#10;create class AnimalFactory" />
@@ -441,6 +457,7 @@
     <MESSAGE value="refactor enum hunting" />
     <MESSAGE value="refactor hunging logic" />
     <MESSAGE value="refactor animal class&#10;delete enum hunting all" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor animal class&#10;delete enum hunting all" />
+    <MESSAGE value="delete package hunting&#10;modify animal class" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete package hunting&#10;modify animal class" />
   </component>
 </project>

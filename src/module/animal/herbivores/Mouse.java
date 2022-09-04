@@ -13,6 +13,7 @@ import static module.animal.AnimalType.PLANTS;
 public class Mouse extends Animal {
     public Mouse () {
         super(0.5, 0.1, 1, 1, AnimalType.MOUSE);
+        setMaxAnimal(500);
         setListHunting(List.of(CATERPILLAR,PLANTS));
         setListHuntingPresent(List.of( 90,100));
     }

@@ -12,6 +12,7 @@ public class Eagle extends Animal {
 
     public Eagle() {
         super(6, 1, 3, 1, AnimalType.EAGLE);
+        setMaxAnimal(20);
         setListHunting(List.of(FOX,RABBIT,MOUSE,DUCK));
         setListHuntingPresent(List.of( 10,90,90,80));
 

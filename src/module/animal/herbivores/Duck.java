@@ -12,15 +12,10 @@ import static module.animal.AnimalType.PLANTS;
 public class Duck extends Animal {
     public Duck() {
         super(1, 0.15, 4, 1, AnimalType.DUCK);
+        setMaxAnimal(200);
         setListHunting(List.of(CATERPILLAR,PLANTS));
         setListHuntingPresent(List.of( 90,100));
     }
-
-
-
-
-
-
 
     @Override
     public void reproduction() {

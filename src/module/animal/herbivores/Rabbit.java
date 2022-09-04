@@ -11,6 +11,7 @@ import static module.animal.AnimalType.PLANTS;
 public class Rabbit extends Animal {
     public Rabbit() {
         super(2, 0.45, 2, 1, AnimalType.RABBIT);
+        setMaxAnimal(150);
         setListHunting(List.of(PLANTS));
         setListHuntingPresent(List.of( 100));
     }

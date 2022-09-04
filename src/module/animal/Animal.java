@@ -9,6 +9,15 @@ import java.util.List;
 public abstract class Animal implements Move,Eat,Reproduction,Dead, Generation {
     //Основные жизненые показатели животных - вес - скорость- сытость - жизнь -
     private List<AnimalType> hunting;
+    private int maxAnimal;
+
+    public void setMaxAnimal(int maxAnimal) {
+        this.maxAnimal = maxAnimal;
+    }
+
+    public int getMaxAnimal() {
+        return maxAnimal;
+    }
 
     public void setHunting(List<AnimalType> hunting) {
         this.hunting = hunting;
