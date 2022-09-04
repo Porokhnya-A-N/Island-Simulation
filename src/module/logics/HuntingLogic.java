@@ -14,24 +14,20 @@ public class HuntingLogic {
         int percent = 0;
         earthCell = cell;
         Animal animal = null;
-//        System.out.println("--" + object.getAnimalType());
         typeAnimal = object.toGenerate(object.getListHunting().size() - 1);
-//        System.out.println(typeAnimal);
         percent = object.getListHuntingPresent().get(typeAnimal);
-//        System.out.println(percent);
-//        System.out.println(object.getListHunting().get(typeAnimal));
         List<Animal> list = cell.getMapAnimal().get(object.getListHunting().get(typeAnimal));
         if(list.size() == 0) {
             animal = list.isEmpty() ? null : list.get(0);
         }else {
             animal = list.get(object.toGenerate(list.size() - 1));
         }
-//        System.out.println("-----------------");
         if(animal != null && animal.isDead()) {
             if (object.toGenerate(100) >= (100 - percent)) {
+                System.out.println(" - " + object.getRealSatiety());
                 object.eat(animal.getWeight());
+                System.out.println(" + "+object.getRealSatiety());
                 animal.setHp(0);
-                System.out.println(animal.getAnimalType() + "dead hunting");
                 return 0;
             } else {
                 return 1;

@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="refactor hunging logic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/animal/actions/Eat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/actions/Eat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/Wolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/predators/Wolf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/logics/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/logics/Basic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/Bear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/predators/Bear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/Boa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/predators/Boa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/Eagle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/predators/Eagle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/Fox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/predators/Fox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/hunting/BearHunting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/hunting/BoaHunting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/hunting/EagleHunting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/hunting/FoxHunting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/animal/predators/hunting/WolfHunting.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/module/logics/HuntingLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/logics/HuntingLogic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -383,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662168270913</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="refactor hunging logic">
+      <created>1662278802296</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1662278802296</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -398,7 +409,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ADD NEW ENUM CLASS PLANTS AND ANIMAL." />
     <MESSAGE value="PACKAGE FACTORY MOVING IN PACKAGE GENERATION" />
     <MESSAGE value="ADD NEW CLASS GENERATION AND MODIFY CLASS." />
     <MESSAGE value="create default method toGenerate" />
@@ -423,6 +433,7 @@
     <MESSAGE value="end work" />
     <MESSAGE value="new day new enum class hunting" />
     <MESSAGE value="refactor enum hunting" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor enum hunting" />
+    <MESSAGE value="refactor hunging logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor hunging logic" />
   </component>
 </project>
