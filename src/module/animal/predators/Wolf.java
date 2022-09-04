@@ -12,10 +12,4 @@ public class Wolf extends Animal {
         setListHunting(List.of( HORSE,DEER,RABBIT,MOUSE,GOAT,SHEEP,BOAR,BUFFALO,DUCK));
         setListHuntingPresent(List.of( 10,15,60,80,60,70,15,10,40));
     }
-
-    @Override
-    public void reproduction() {
-
-    }
-
 }

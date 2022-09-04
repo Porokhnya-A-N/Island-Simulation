@@ -15,15 +15,4 @@ public class Caterpillar extends Animal {
         setListHunting(List.of(PLANTS));
         setListHuntingPresent(List.of( 100));
     }
-
-
-
-
-
-
-
-    @Override
-    public void reproduction() {
-
-    }
 }

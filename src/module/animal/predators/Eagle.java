@@ -18,8 +18,4 @@ public class Eagle extends Animal {
 
         //FOX(10),RABBIT(90),MOUSE(90),DUCK(80);
     }
-    @Override
-    public void reproduction() {
-
-    }
 }

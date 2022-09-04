@@ -17,14 +17,4 @@ public class Mouse extends Animal {
         setListHunting(List.of(CATERPILLAR,PLANTS));
         setListHuntingPresent(List.of( 90,100));
     }
-
-
-
-
-
-
-    @Override
-    public void reproduction() {
-
-    }
 }

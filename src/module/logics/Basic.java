@@ -25,6 +25,15 @@ public class Basic {
         if(object.isDead()){
             if(object.getRealSatiety() >= (object.getSatiety() * 0.8)){
                 //Запуск логики размножения.
+                if(breedingLogic.startReproduction(object,cell)== 0) {
+                    return;
+                }else{
+                    if(object.toGenerate(100) > 50){
+                        movementLogic.startMove(0,coordinateX, coordinateY,object,earthCell);
+                    }else{
+                        movementLogic.startMove(1,coordinateX,coordinateY,object,earthCell);
+                    }
+                }
 
             }else {
                 //Запуск логики охоты.

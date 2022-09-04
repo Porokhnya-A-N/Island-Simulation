@@ -16,8 +16,4 @@ public class Boa extends Animal {
         setListHuntingPresent(List.of(15,20,40,10));
        // FOX(15),RABBIT(20),MOUSE(40),DUCK(10);
     }
-    @Override
-    public void reproduction() {
-
-    }
 }

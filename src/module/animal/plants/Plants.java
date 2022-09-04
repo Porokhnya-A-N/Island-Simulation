@@ -8,13 +8,4 @@ public class Plants extends Animal {
         super(1, 0, 0, 1, AnimalType.PLANTS);
         setMaxAnimal(200);
     }
-
-
-
-
-
-    @Override
-    public void reproduction() {
-
-    }
 }

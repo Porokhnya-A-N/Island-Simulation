@@ -17,8 +17,4 @@ public class Bear extends Animal {
         setListHuntingPresent(List.of( 80,40,80,80,80,70,70,50,20,10));
         //BOA(80),HORSE (40),DEER(80),RABBIT(80),MOUSE(80),GOAT(70),SHEEP(70),BOAR(50),BUFFALO(20),DUCK(10);
     }
-    @Override
-    public void reproduction() {
-
-    }
 }

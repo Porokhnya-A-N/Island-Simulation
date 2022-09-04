@@ -15,13 +15,4 @@ public class Boar extends Animal {
         setListHunting(List.of(MOUSE,CATERPILLAR,PLANTS));
         setListHuntingPresent(List.of( 50,90,100));
     }
-
-
-
-
-
-    @Override
-    public void reproduction() {
-
-    }
 }

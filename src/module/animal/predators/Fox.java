@@ -17,8 +17,4 @@ public class Fox extends Animal {
         setListHuntingPresent(List.of(60,80,40,40));
         //RABBIT(60),MOUSE(80),DUCK(40), CATERPILLAR(40);
     }
-    @Override
-    public void reproduction() {
-
-    }
 }
