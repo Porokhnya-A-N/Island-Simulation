@@ -27,8 +27,7 @@ public class DataOutputLogic {
  private  void readDataCell(EarthCell cell){
      for (int i = 0; i < type.length; i++) {
          int count = cell.getMapAnimal().get(type[i]).size();
-         Integer countAnimal = mapCount.get(type[i]);
-         countAnimal+=count;
+            mapCount.merge(type[i],count,Integer::sum);
      }
  }
  private void writeKeyMap(){

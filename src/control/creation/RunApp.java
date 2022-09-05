@@ -24,7 +24,9 @@ public class RunApp implements Runnable{
         island = uci.getIsland();
         logic = new Basic(island);
         logic.openIsland();
+        dataOutputLogic.launchLogic(island);
         deadLogic.startClearIsland(island);
+        dataOutputLogic.launchLogic(island);
         int count = 0;
 //        while(island.isLive()) {
 //            System.out.println(island.isLive()+" " + count++);
