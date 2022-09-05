@@ -1,6 +1,7 @@
 package control.creation;
 
 import module.logics.Basic;
+import module.logics.DataOutputLogic;
 import module.logics.DeadLogic;
 import module.world.Island;
 import view.uic.UCI;
@@ -15,6 +16,7 @@ public class RunApp implements Runnable{
     UCI uci;
     Basic logic;
     DeadLogic deadLogic = new DeadLogic();
+    DataOutputLogic dataOutputLogic = new DataOutputLogic();
     public void run() {
         uci = new UCI();
         //ScheduledExecutorService scheduledExecutorService = Executors.newScheduledThreadPool(4);
