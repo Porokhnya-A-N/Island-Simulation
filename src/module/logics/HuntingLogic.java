@@ -16,18 +16,29 @@ public class HuntingLogic {
         typeAnimal = object.toGenerate(object.getListHunting().size() - 1);
         percent = object.getListHuntingPresent().get(typeAnimal);
         List<Animal> list = cell.getMapAnimal().get(object.getListHunting().get(typeAnimal));
-        if(list.size() == 1) {
-            animal = list.isEmpty() ? null : list.get(0);
-        }else if(list.size()>1){
+        if(list.isEmpty()) {
+            for (int i = 0; i < object.getListHunting().size(); i++) {
+                if(!cell.getMapAnimal().get(object.getListHunting().get(i)).isEmpty()){
+                    list = cell.getMapAnimal().get(object.getListHunting().get(i));
+                    break;
+                }else{
+                    return 1;
+                }
+
+            }
+        }else{
             animal = list.get(object.toGenerate(list.size() - 1));
         }
         if(animal != null && animal.isDead()) {
             if (object.toGenerate(100) >= (100 - percent)) {
                 object.eat(animal.getWeight());
                 animal.setHp(0);
+                System.out.println(object.getAnimalType() + " -> " +animal.getAnimalType());
                 return 0;
             } else {
-                return 1;
+                object.setRealSatiety(object.getRealSatiety() - (object.getSatiety()*0.2));
+                System.out.println(object.getAnimalType() + " |->| " +animal.getAnimalType());
+                return 0;
             }
         }else {
             return 1;

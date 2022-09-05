@@ -24,7 +24,7 @@ public class Basic {
     private void launchBasicLogic(){
         if(object.isDead()) {
             if (object.getAnimalType() != AnimalType.PLANTS) {
-                if (object.getRealSatiety() >= (object.getSatiety() * 0.8)) {
+                if (object.getRealSatiety() >= (object.getSatiety() * 0.9)) {
                     //Запуск логики размножения.
                     if (breedingLogic.startReproduction(object, cell) == 0) {
                         return;
@@ -59,12 +59,15 @@ public class Basic {
         readCell();
     }
     private void openCell(){
+        AnimalType[] type = AnimalType.values();
        Map<AnimalType, List<Animal>> mapAnimal =  cell.getMapAnimal();
-        for (int i = 0; i < AnimalType.values().length; i++) {
-           List<Animal> animalList = mapAnimal.get(AnimalType.values()[i]);
+        for (int i = 0; i < type.length; i++) {
+           List<Animal> animalList = mapAnimal.get(type[i]);
             for (int j = 0; j < animalList.size(); j++) {
-                object =animalList.get(j);
-                launchBasicLogic();
+                if(!animalList.isEmpty()) {
+                    object = animalList.get(j);
+                    launchBasicLogic();
+                }
             }
 
         }
