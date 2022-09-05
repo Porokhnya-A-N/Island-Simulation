@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="new commit date 18.31">
-      <change afterPath="$PROJECT_DIR$/src/module/logics/DeadLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/control/creation/RunApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/control/creation/RunApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/logics/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/logics/Basic.java" afterDir="false" />
-    </list>
+    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="new logic dead animal" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,13 +80,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661098567648</updated>
-    </task>
-    <task id="LOCAL-00003" summary="&quot;association of an abstract class with action interfaces&quot;&#10;&quot;связь абстрактного класса с интерфейсами действий&quot;">
-      <created>1661155961632</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1661155961632</updated>
     </task>
     <task id="LOCAL-00004" summary="End of the working day">
       <created>1661169554463</created>
@@ -429,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662294719445</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="new logic dead animal">
+      <created>1662339843604</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1662339843604</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -444,7 +439,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ADD package logic add class basic" />
     <MESSAGE value="modify class animal" />
     <MESSAGE value="refactor module animal&#10;add module basic logic" />
     <MESSAGE value="refactor basic logic" />
@@ -469,6 +463,7 @@
     <MESSAGE value="new logic (BreedingLogic)" />
     <MESSAGE value="refactor logic Reproduction" />
     <MESSAGE value="new commit date 18.31" />
-    <option name="LAST_COMMIT_MESSAGE" value="new commit date 18.31" />
+    <MESSAGE value="new logic dead animal" />
+    <option name="LAST_COMMIT_MESSAGE" value="new logic dead animal" />
   </component>
 </project>
