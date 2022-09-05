@@ -15,8 +15,10 @@ public class UCI {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Welcome to the island life simulation!");
         System.out.println("Set the size of the island:");
-        System.out.println("X: " + (x =  scanner.nextInt()));
-        System.out.println("Y: " + (y =  scanner.nextInt()));
+        System.out.print("X: ");
+        x =  scanner.nextInt();
+        System.out.print("Y: ");
+        y =  scanner.nextInt();
         System.out.println("The creation and filling of the island with life will be introduced.");
         island = new Island(x,y);
         island.create();
