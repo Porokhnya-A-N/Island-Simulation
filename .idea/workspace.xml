@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="new data output logic">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/control/creation/RunApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/control/creation/RunApp.java" afterDir="false" />
+    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="refactor logic output">
+      <change beforePath="$PROJECT_DIR$/src/module/logics/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/logics/Basic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/module/logics/DataOutputLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/logics/DataOutputLogic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,13 +83,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661098567648</updated>
-    </task>
-    <task id="LOCAL-00006" summary="&quot;end of the working day&quot;">
-      <created>1661252866306</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1661252866306</updated>
     </task>
     <task id="LOCAL-00007" summary="&quot;new day&quot;">
       <created>1661319360036</created>
@@ -428,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662357456903</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="refactor logic output">
+      <created>1662358762508</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1662358762508</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -443,7 +442,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor basic logic" />
     <MESSAGE value="new logic in basic logic" />
     <MESSAGE value="refactor package Animal" />
     <MESSAGE value="refactor class Basic logic" />
@@ -468,6 +466,7 @@
     <MESSAGE value="new logic dead animal" />
     <MESSAGE value="refactor class UCI&#10;new class Data output logic" />
     <MESSAGE value="new data output logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="new data output logic" />
+    <MESSAGE value="refactor logic output" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor logic output" />
   </component>
 </project>

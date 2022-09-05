@@ -42,6 +42,7 @@ public class DataOutputLogic {
         for (int i = 0; i < type.length; i++) {
             System.out.println(type[i] + ": " + mapCount.get(type[i]));
         }
+        writeKeyMap();
     }
     public void launchLogic(Island is){
         setIsland(is);

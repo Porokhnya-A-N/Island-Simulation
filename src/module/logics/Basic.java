@@ -22,35 +22,36 @@ public class Basic {
     }
 
     private void launchBasicLogic(){
-        if(object.isDead()){
-            if (object.getAnimalType() != AnimalType.PLANTS)
-            if(object.getRealSatiety() >= (object.getSatiety() * 0.8)){
-                //Запуск логики размножения.
-                if(breedingLogic.startReproduction(object,cell)== 0) {
-                    return;
-                }else{
-                    if(object.toGenerate(100) > 50){
-                        movementLogic.startMove(0,coordinateX, coordinateY,object,earthCell);
-                    }else{
-                        movementLogic.startMove(1,coordinateX,coordinateY,object,earthCell);
+        if(object.isDead()) {
+            if (object.getAnimalType() != AnimalType.PLANTS) {
+                if (object.getRealSatiety() >= (object.getSatiety() * 0.8)) {
+                    //Запуск логики размножения.
+                    if (breedingLogic.startReproduction(object, cell) == 0) {
+                        return;
+                    } else {
+                        if (object.toGenerate(100) > 50) {
+                            movementLogic.startMove(0, coordinateX, coordinateY, object, earthCell);
+                        } else {
+                            movementLogic.startMove(1, coordinateX, coordinateY, object, earthCell);
+                        }
                     }
-                }
 
-            }else {
-                //Запуск логики охоты.
-                if (huntingLogic.startHunting(object, cell) == 0) {
-                    return;
                 } else {
-                    if(object.toGenerate(100) > 50){
-                        movementLogic.startMove(0,coordinateX, coordinateY,object,earthCell);
-                    }else{
-                        movementLogic.startMove(1,coordinateX,coordinateY,object,earthCell);
+                    //Запуск логики охоты.
+                    if (huntingLogic.startHunting(object, cell) == 0) {
+                        return;
+                    } else {
+                        if (object.toGenerate(100) > 50) {
+                            movementLogic.startMove(0, coordinateX, coordinateY, object, earthCell);
+                        } else {
+                            movementLogic.startMove(1, coordinateX, coordinateY, object, earthCell);
+                        }
                     }
-                }
 
+                }
+            } else {
+                object = null;
             }
-        }else{
-            object = null;
         }
     }
     public void openIsland(){
