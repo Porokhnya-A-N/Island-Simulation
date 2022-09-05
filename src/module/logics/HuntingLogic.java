@@ -20,11 +20,13 @@ public class HuntingLogic {
             for (int i = 0; i < object.getListHunting().size(); i++) {
                 if(!cell.getMapAnimal().get(object.getListHunting().get(i)).isEmpty()){
                     list = cell.getMapAnimal().get(object.getListHunting().get(i));
+                    animal = list.get(object.toGenerate(list.size() - 1));
+                    System.out.println(animal.getAnimalType() + "-> Food");
                     break;
                 }else{
+                    System.out.println(object.getAnimalType() + "-> Null Food");
                     return 1;
                 }
-
             }
         }else{
             animal = list.get(object.toGenerate(list.size() - 1));
@@ -41,6 +43,7 @@ public class HuntingLogic {
                 return 0;
             }
         }else {
+            System.out.println("null or dead");
             return 1;
         }
     }

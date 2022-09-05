@@ -1,7 +1,6 @@
 package control.launch;
 
 import control.creation.RunApp;
-
 public class Main {
     public static void main(String[] args) {
         System.out.println("Run App");

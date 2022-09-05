@@ -77,7 +77,7 @@ public abstract class Animal implements Move,Eat,Reproduction,Dead, Generation {
         if (food >= satiety){
             realSatiety = satiety;
         }else if (food < satiety){
-            if((realSatiety+food) > satiety){
+            if((realSatiety+food) >= satiety){
                 realSatiety = satiety;
             }else {
                 realSatiety+=food;

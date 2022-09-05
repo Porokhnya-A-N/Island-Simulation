@@ -16,6 +16,7 @@ public class BreedingLogic {
                     break;
                 }
             }
+            object.setRealSatiety(object.getRealSatiety() - (object.getSatiety()*0.5));
             return 0;
         }else{
             return 1;

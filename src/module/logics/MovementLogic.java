@@ -6,10 +6,18 @@ import module.world.cell.EarthCell;
 public class MovementLogic {
     private int x, y;
     public void startMove(int direction, int corX, int corY, Animal object, EarthCell[][] earthCell){
+        System.out.println("Move -> " + object.getAnimalType());
+        System.out.println(object.getRealSatiety());
       x = corX;
       y = corY;
         int steep = object.move();
-        if(direction == 0 && steep!=0){
+        System.out.println("Step ->" + steep);
+        if(steep == 0){
+            steep = 1;
+        }
+        System.out.println("Step ->" + steep);
+        if(direction == 0){
+            System.out.println("Corx");
            if(earthCell.length >= (x + steep)){
                while(steep > 0){
                if(isSteepOnRight(earthCell.length,steep)) {
@@ -31,7 +39,8 @@ public class MovementLogic {
                 }
 
            }
-        }else if (direction == 1 && steep !=0){
+        }else if (direction == 1){
+            System.out.println("CorY");
                 if(earthCell[x].length >= (y + steep)){
                     while (steep>0){
                         if(isSteepOnBottom(earthCell[x].length,steep)){
