@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="refactor logic Reproduction">
+    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="new commit date 18.31">
+      <change afterPath="$PROJECT_DIR$/src/module/logics/DeadLogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/control/creation/RunApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/control/creation/RunApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/animal/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/world/Island.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/world/Island.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/uic/UCI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/uic/UCI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/logics/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/logics/Basic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,13 +85,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661098567648</updated>
-    </task>
-    <task id="LOCAL-00002" summary="&quot;git add new abstract class&quot;&#10;&quot;git add new action interface&quot;">
-      <created>1661151404141</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1661151404141</updated>
     </task>
     <task id="LOCAL-00003" summary="&quot;association of an abstract class with action interfaces&quot;&#10;&quot;связь абстрактного класса с интерфейсами действий&quot;">
       <created>1661155961632</created>
@@ -430,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662290548990</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="new commit date 18.31">
+      <created>1662294719445</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1662294719445</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -445,7 +444,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ADD CLASS PLANS AND REFACTOR FACTORY,ENUM STRUCTURE." />
     <MESSAGE value="ADD package logic add class basic" />
     <MESSAGE value="modify class animal" />
     <MESSAGE value="refactor module animal&#10;add module basic logic" />
@@ -470,6 +468,7 @@
     <MESSAGE value="completion logic move" />
     <MESSAGE value="new logic (BreedingLogic)" />
     <MESSAGE value="refactor logic Reproduction" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor logic Reproduction" />
+    <MESSAGE value="new commit date 18.31" />
+    <option name="LAST_COMMIT_MESSAGE" value="new commit date 18.31" />
   </component>
 </project>
