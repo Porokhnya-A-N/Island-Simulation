@@ -37,11 +37,12 @@ public class Island extends World{
     }
     public boolean isLive(){
         boolean status = false;
+        AnimalType[]types = AnimalType.values();
         for(int i =0 ; i < arrayCell.length; i++){
             for (int j = 0; j < arrayCell[i].length; j++) {
-                for (AnimalType type: AnimalType.values()) {
+                for (AnimalType type: types) {
                     if(type != AnimalType.PLANTS){
-                    status = arrayCell[i][j].getMapAnimal().get(type).isEmpty();
+                    status = !arrayCell[i][j].getMapAnimal().get(type).isEmpty();
                         if(status){
                             return true;
                         }

@@ -18,7 +18,6 @@ public class MovementLogic {
                 }else{
                    steep--;
                }
-
                }
             } else if (earthCell.length < (x + steep)) {
                 while(steep > 0){
@@ -70,18 +69,18 @@ public class MovementLogic {
     public void startMoveCorX( int corY,Animal object, EarthCell[][] earthCell, int steep ){
         if(earthCell[steep][corY].getMapAnimal().get(object.getAnimalType()).size()< object.getMaxAnimal()) {
             earthCell[steep][corY].getMapAnimal().get(object.getAnimalType()).add(object);
-            object.setRealSatiety(object.getRealSatiety() *0.5);
+            object.setRealSatiety(object.getRealSatiety() - (object.getSatiety()*0.2));
         }else {
-            object.setRealSatiety(object.getRealSatiety() *0.5);
+            object.setRealSatiety(object.getRealSatiety() - (object.getSatiety()*0.2));
         }
 
     }
     public void startMoveCorY(int corX,Animal object, EarthCell[][] earthCell, int steep) {
         if(earthCell[corX][steep].getMapAnimal().get(object.getAnimalType()).size()< object.getMaxAnimal()) {
             earthCell[corX][steep].getMapAnimal().get(object.getAnimalType()).add(object);
-            object.setRealSatiety(object.getRealSatiety() *0.5);
+            object.setRealSatiety(object.getRealSatiety() - (object.getSatiety()*0.2));
         }else{
-            object.setRealSatiety(object.getRealSatiety() *0.5);
+            object.setRealSatiety(object.getRealSatiety() - (object.getSatiety()*0.2));
         }
 
     }

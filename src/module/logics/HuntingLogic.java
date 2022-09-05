@@ -16,9 +16,9 @@ public class HuntingLogic {
         typeAnimal = object.toGenerate(object.getListHunting().size() - 1);
         percent = object.getListHuntingPresent().get(typeAnimal);
         List<Animal> list = cell.getMapAnimal().get(object.getListHunting().get(typeAnimal));
-        if(list.size() == 0) {
+        if(list.size() == 1) {
             animal = list.isEmpty() ? null : list.get(0);
-        }else {
+        }else if(list.size()>1){
             animal = list.get(object.toGenerate(list.size() - 1));
         }
         if(animal != null && animal.isDead()) {

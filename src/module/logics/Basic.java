@@ -48,12 +48,12 @@ public class Basic {
                         }
                     }
 
-                }
+                }}
             } else {
                 object = null;
             }
         }
-    }
+    //}
     public void openIsland(){
         earthCell = island.getArrayCell();
         readCell();

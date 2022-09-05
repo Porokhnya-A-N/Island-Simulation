@@ -39,9 +39,14 @@ public class DataOutputLogic {
         this.island = island;
     }
     private void dataOutput(){
+        System.out.println("------------------------");
         for (int i = 0; i < type.length; i++) {
-            System.out.println(type[i] + ": " + mapCount.get(type[i]));
+            System.out.print(type[i] + ": {" + mapCount.get(type[i])+ "} ");
+            if(i%4==0&& i> 0){
+                System.out.println();
+            }
         }
+        System.out.println("------------------------");
         writeKeyMap();
     }
     public void launchLogic(Island is){

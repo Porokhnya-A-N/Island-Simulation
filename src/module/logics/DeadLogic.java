@@ -28,15 +28,12 @@ public class DeadLogic {
         }
     }
     private void clearDeadAnimal(){
-        System.out.println("Hungry");
         hungryDeath();
-        System.out.println("Remove");
         removeDeadAnimal();
 
     }
     private void removeDeadAnimal(){
         Animal animal = null;
-        System.out.println(animals.isEmpty());
         if(!animals.isEmpty()) {
             for (int i = 0; i < animals.size(); i++) {
                 animal = animals.get(i);
@@ -51,7 +48,7 @@ public class DeadLogic {
         }
     }
     private void hungryDeath(){
-        if(animals.isEmpty())
+        if(!animals.isEmpty())
         for (Animal animal:animals) {
             if(animal.getRealSatiety() <= 0.0){
                 animal.setHp(0);
