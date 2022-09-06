@@ -1,6 +1,7 @@
 package control.creation;
 
 import module.logics.Basic;
+import module.logics.CreatePlantsLogic;
 import module.logics.DataOutputLogic;
 import module.logics.DeadLogic;
 import module.world.Island;
@@ -15,6 +16,7 @@ public class RunApp implements Runnable{
     Island island;
     UCI uci;
     Basic logic;
+    CreatePlantsLogic createPlantsLogic = new CreatePlantsLogic();
     DeadLogic deadLogic = new DeadLogic();
     DataOutputLogic dataOutputLogic = new DataOutputLogic();
     public void run() {
@@ -25,8 +27,10 @@ public class RunApp implements Runnable{
         logic = new Basic(island);
         while (island.isLive()) {
             logic.openIsland();
-            dataOutputLogic.launchLogic(island);
             deadLogic.startClearIsland(island);
+            dataOutputLogic.launchLogic(island);
+            createPlantsLogic.openIsland(island);
+
         }
         System.out.println("Live Dead");
 //        while(island.isLive()) {

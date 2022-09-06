@@ -25,7 +25,7 @@ public class Basic {
         if(object.isDead()) {
             //System.out.println(object.getAnimalType()+ " Launch logic Base");
             if (object.getAnimalType() != AnimalType.PLANTS) {
-                if (object.getRealSatiety() >= (object.getSatiety() * 0.9)) {
+                if (object.getRealSatiety() >= (object.getSatiety() * 0.7)) {
                     //Запуск логики размножения.
                    // System.out.println(object.getAnimalType()+ " Launch logic Rep");
                     if (breedingLogic.startReproduction(object, cell) == 0) {

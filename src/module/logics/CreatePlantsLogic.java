@@ -2,13 +2,16 @@ package module.logics;
 
 import module.animal.AnimalCount;
 import module.animal.AnimalType;
-import module.animal.plants.Plants;
 import module.generation.Generation;
 import module.generation.factory.AnimalFactory;
 import module.world.Island;
 import module.world.cell.EarthCell;
 
 public class CreatePlantsLogic implements Generation {
+    public void setIsland(Island island) {
+        this.island = island;
+    }
+
     AnimalFactory animalFactory = new AnimalFactory();
     Island island;
     public void openIsland(Island island){
