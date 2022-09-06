@@ -33,13 +33,15 @@ public class HuntingLogic {
         }
         if(animal != null && animal.isDead()) {
             if (object.toGenerate(100) >= (100 - percent)) {
+                System.out.println(object.getRealSatiety());
                 object.eat(animal.getWeight());
                 animal.setHp(0);
-                //System.out.println(object.getAnimalType() + " -> " +animal.getAnimalType());
+                System.out.println(object.getAnimalType() + " -> " +animal.getAnimalType());
+                System.out.println(object.getRealSatiety());
                 return 0;
             } else {
                 object.setRealSatiety(object.getRealSatiety() - (object.getSatiety()*0.2));
-               // System.out.println(object.getAnimalType() + " |->| " +animal.getAnimalType());
+                System.out.println(object.getAnimalType() + " |->| " +animal.getAnimalType());
                 return 0;
             }
         }else {

@@ -50,7 +50,7 @@ public class DeadLogic {
     private void hungryDeath(){
         if(!animals.isEmpty())
         for (Animal animal:animals) {
-            if(animal.getRealSatiety() <= 0.0){
+            if(animal.getRealSatiety() <= 0.0 && animal.getAnimalType() != AnimalType.CATERPILLAR){
                 animal.setHp(0);
             }
         }

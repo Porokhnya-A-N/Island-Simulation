@@ -64,7 +64,7 @@ public abstract class Animal implements Move,Eat,Reproduction,Dead, Generation {
         this.speed = speed;
         this.hp = hp;
         this.animalType = animalType;
-        realSatiety = satiety * 0.50;
+        realSatiety = satiety * 0.80;
     }
 
     public AnimalType getAnimalType() {

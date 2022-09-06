@@ -25,12 +25,13 @@ public class Basic {
         if(object.isDead()) {
             //System.out.println(object.getAnimalType()+ " Launch logic Base");
             if (object.getAnimalType() != AnimalType.PLANTS) {
-                if (object.getRealSatiety() >= (object.getSatiety() * 0.7)) {
+                if (object.getRealSatiety() >= (object.getSatiety() * 0.81)) {
                     //Запуск логики размножения.
                    // System.out.println(object.getAnimalType()+ " Launch logic Rep");
                     if (breedingLogic.startReproduction(object, cell) == 0) {
                         return;
                     } else {
+                        if (object.getAnimalType() != AnimalType.CATERPILLAR)
                         if (object.toGenerate(100) > 50) {
                             movementLogic.startMove(0, coordinateX, coordinateY, object, earthCell);
                         } else {
@@ -44,6 +45,7 @@ public class Basic {
                     if (huntingLogic.startHunting(object, cell) == 0) {
                         return;
                     } else {
+                        if (object.getAnimalType() != AnimalType.CATERPILLAR)
                         if (object.toGenerate(100) > 50) {
                             movementLogic.startMove(0, coordinateX, coordinateY, object, earthCell);
                         } else {
