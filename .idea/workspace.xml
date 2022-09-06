@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="new logic CreatePlantsLogic">
-      <change beforePath="$PROJECT_DIR$/src/control/creation/RunApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/control/creation/RunApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/logics/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/logics/Basic.java" afterDir="false" />
+    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="refactor logic 17.10">
       <change beforePath="$PROJECT_DIR$/src/module/logics/CreatePlantsLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/logics/CreatePlantsLogic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,13 +82,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661098567648</updated>
-    </task>
-    <task id="LOCAL-00012" summary="finish class Island">
-      <created>1661761791786</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1661761791786</updated>
     </task>
     <task id="LOCAL-00013" summary="new class RunApp">
       <created>1661761909539</created>
@@ -428,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662461938198</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="refactor logic 17.10">
+      <created>1662462660186</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1662462660186</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -443,7 +441,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="NEW CLASS READ ISLAND" />
     <MESSAGE value="Runnable basic logic" />
     <MESSAGE value="new chang in logic" />
     <MESSAGE value="new logic for rep, hanter." />
@@ -468,6 +465,7 @@
     <MESSAGE value="refactor logic  16.41" />
     <MESSAGE value="refactor logic  14.18" />
     <MESSAGE value="new logic CreatePlantsLogic" />
-    <option name="LAST_COMMIT_MESSAGE" value="new logic CreatePlantsLogic" />
+    <MESSAGE value="refactor logic 17.10" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor logic 17.10" />
   </component>
 </project>

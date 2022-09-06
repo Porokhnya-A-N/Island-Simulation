@@ -22,7 +22,6 @@ public class CreatePlantsLogic implements Generation {
                 if(cell.getMapAnimal().get(AnimalType.PLANTS).size() < AnimalCount.MAX_PLANTS.getCount()){
                     int size = AnimalCount.MAX_PLANTS.getCount() - cell.getMapAnimal().get(AnimalType.PLANTS).size();
                     int random = toGenerate(size);
-                    System.out.println(random);
                     for(int k = 0 ; k < random; k++ )
                     cell.getMapAnimal().get(AnimalType.PLANTS).add(animalFactory.createAnimal(AnimalType.PLANTS));
                 }
