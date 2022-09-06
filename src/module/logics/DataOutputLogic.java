@@ -39,10 +39,12 @@ public class DataOutputLogic {
         this.island = island;
     }
     private void dataOutput(){
-        System.out.println("------------------------");
+        //System.out.println("------------------------");
         for (int i = 0; i < type.length; i++) {
             System.out.print(type[i] + ": {" + mapCount.get(type[i])+ "} ");
             if(i%4==0&& i> 0){
+                System.out.println();
+            }else if( i == type.length-1){
                 System.out.println();
             }
         }

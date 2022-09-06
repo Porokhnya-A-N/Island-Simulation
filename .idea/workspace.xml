@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="refactor logic  16.41">
+    <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="refactor logic  14.18">
+      <change afterPath="$PROJECT_DIR$/src/module/logics/CreatePlantsLogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/logics/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/logics/Basic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/logics/DeadLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/logics/DeadLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/logics/HuntingLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/logics/HuntingLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/logics/MovementLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/logics/MovementLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/logics/DataOutputLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/logics/DataOutputLogic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,13 +84,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661098567648</updated>
-    </task>
-    <task id="LOCAL-00010" summary="&quot;ADD MODULE GENERATION&quot;&#10;&quot;ADD CLASS CELL&quot;&#10;&quot;ADD CLASS EARTHCELL&quot;">
-      <created>1661753062328</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1661753062328</updated>
     </task>
     <task id="LOCAL-00011" summary="change name package, class">
       <created>1661754452806</created>
@@ -430,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662374549911</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="refactor logic  14.18">
+      <created>1662452334914</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1662452334914</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -445,7 +443,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="NEW CHANG FOR ANIMAL CLASS" />
     <MESSAGE value="NEW CLASS CELL SEARCH." />
     <MESSAGE value="NEW CLASS READ ISLAND" />
     <MESSAGE value="Runnable basic logic" />
@@ -470,6 +467,7 @@
     <MESSAGE value="refactor logic output 12.25" />
     <MESSAGE value="refactor logic  15.21" />
     <MESSAGE value="refactor logic  16.41" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor logic  16.41" />
+    <MESSAGE value="refactor logic  14.18" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor logic  14.18" />
   </component>
 </project>
