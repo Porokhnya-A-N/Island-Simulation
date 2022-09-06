@@ -61,7 +61,7 @@ public class MovementLogic {
                     }
                 }
         }
-
+        earthCell[x][y].getMapAnimal().get(object.getAnimalType()).remove(object);
     }
     private boolean isSteepOnLeft( int steep){
         return (x - steep ) >= 0;
