@@ -23,11 +23,11 @@ public class Basic {
 
     private void launchBasicLogic(){
         if(object.isDead()) {
-            System.out.println(object.getAnimalType()+ " Launch logic Base");
+            //System.out.println(object.getAnimalType()+ " Launch logic Base");
             if (object.getAnimalType() != AnimalType.PLANTS) {
                 if (object.getRealSatiety() >= (object.getSatiety() * 0.9)) {
                     //Запуск логики размножения.
-                    System.out.println(object.getAnimalType()+ " Launch logic Rep");
+                   // System.out.println(object.getAnimalType()+ " Launch logic Rep");
                     if (breedingLogic.startReproduction(object, cell) == 0) {
                         return;
                     } else {
@@ -39,7 +39,7 @@ public class Basic {
                     }
 
                 } else {
-                    System.out.println(object.getAnimalType()+ " Launch logic Hun");
+                    //System.out.println(object.getAnimalType()+ " Launch logic Hun");
                     //Запуск логики охоты.
                     if (huntingLogic.startHunting(object, cell) == 0) {
                         return;

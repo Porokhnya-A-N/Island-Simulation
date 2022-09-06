@@ -21,10 +21,10 @@ public class HuntingLogic {
                 if(!cell.getMapAnimal().get(object.getListHunting().get(i)).isEmpty()){
                     list = cell.getMapAnimal().get(object.getListHunting().get(i));
                     animal = list.get(object.toGenerate(list.size() - 1));
-                    System.out.println(animal.getAnimalType() + "-> Food");
+                   // System.out.println(animal.getAnimalType() + "-> Food");
                     break;
                 }else{
-                    System.out.println(object.getAnimalType() + "-> Null Food");
+                   // System.out.println(object.getAnimalType() + "-> Null Food");
                     return 1;
                 }
             }
@@ -35,15 +35,15 @@ public class HuntingLogic {
             if (object.toGenerate(100) >= (100 - percent)) {
                 object.eat(animal.getWeight());
                 animal.setHp(0);
-                System.out.println(object.getAnimalType() + " -> " +animal.getAnimalType());
+                //System.out.println(object.getAnimalType() + " -> " +animal.getAnimalType());
                 return 0;
             } else {
                 object.setRealSatiety(object.getRealSatiety() - (object.getSatiety()*0.2));
-                System.out.println(object.getAnimalType() + " |->| " +animal.getAnimalType());
+               // System.out.println(object.getAnimalType() + " |->| " +animal.getAnimalType());
                 return 0;
             }
         }else {
-            System.out.println("null or dead");
+            //System.out.println("null or dead");
             return 1;
         }
     }

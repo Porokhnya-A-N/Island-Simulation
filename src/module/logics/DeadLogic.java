@@ -38,10 +38,10 @@ public class DeadLogic {
             for (int i = 0; i < animals.size(); i++) {
                 animal = animals.get(i);
                 if (animal.getHp() == 0) {
-                    System.out.println("Remote Animal isDead " + animal.getAnimalType());
+                    //System.out.println("Remote Animal isDead " + animal.getAnimalType());
                     animals.remove(i);
                 } else if (animal == null) {
-                    System.out.println("Remote Animal isNull");
+                    //System.out.println("Remote Animal isNull");
                     animals.remove(i);
                 }
             }

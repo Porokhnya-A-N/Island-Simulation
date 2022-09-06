@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8f2f34ff-bd16-4302-81c1-7e5854906212" name="Changes" comment="refactor logic  16.41">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/logics/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/logics/Basic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/logics/DeadLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/logics/DeadLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/logics/HuntingLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/logics/HuntingLogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/module/logics/MovementLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/logics/MovementLogic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
