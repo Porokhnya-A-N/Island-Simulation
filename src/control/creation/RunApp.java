@@ -33,17 +33,5 @@ public class RunApp implements Runnable{
 
         }
         System.out.println("Live Dead");
-//        while(island.isLive()) {
-//            System.out.println(island.isLive()+" " + count++);
-//            logic.openIsland();
-//
-//        }
-//        Callable task = () -> {
-//            return "Hello, World!";
-//        };
-
-//        basicLogic = new Basic(island);
-//        basicLogic.openIsland();
-
     }
 }
