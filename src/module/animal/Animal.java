@@ -37,7 +37,7 @@ public abstract class Animal implements Move,Eat,Reproduction,Dead, Generation {
 
     private AnimalType animalType;
     private double weight, satiety, realSatiety;
-    private int speed, hp;
+    private int speed, hp, move;
     private AnimalFactory factory = new AnimalFactory();
     private List<AnimalType> listHunting;
     private List<Integer> listHuntingPresent;
@@ -65,6 +65,7 @@ public abstract class Animal implements Move,Eat,Reproduction,Dead, Generation {
         this.hp = hp;
         this.animalType = animalType;
         realSatiety = satiety * 0.80;
+        move = 1;
     }
 
     public AnimalType getAnimalType() {
@@ -120,5 +121,13 @@ public abstract class Animal implements Move,Eat,Reproduction,Dead, Generation {
     @Override
     public boolean isDead() {
         return (hp > 0);
+    }
+
+    public void setMove(int move) {
+        this.move = move;
+    }
+
+    public int getMove() {
+        return move;
     }
 }

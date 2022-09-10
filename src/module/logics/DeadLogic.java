@@ -38,10 +38,8 @@ public class DeadLogic {
             for (int i = 0; i < animals.size(); i++) {
                 animal = animals.get(i);
                 if (animal.getHp() == 0) {
-                    //System.out.println("Remote Animal isDead " + animal.getAnimalType());
                     animals.remove(i);
                 } else if (animal == null) {
-                    //System.out.println("Remote Animal isNull");
                     animals.remove(i);
                 }
             }
@@ -50,8 +48,10 @@ public class DeadLogic {
     private void hungryDeath(){
         if(!animals.isEmpty())
         for (Animal animal:animals) {
-            if(animal.getRealSatiety() <= 0.0 && animal.getAnimalType() != AnimalType.CATERPILLAR){
+            if(animal.getRealSatiety() < 0.0){
                 animal.setHp(0);
+            }else{
+                animal.setMove(1);
             }
         }
     }
